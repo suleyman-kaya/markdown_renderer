@@ -1,7 +1,6 @@
 # Markdown Renderer: Facilitating Seamless Integration of Source Code into Your Markdown Files
 
 Description:
-
 Markdown Renderer is a powerful tool designed to simplify the process of embedding source code into your markdown files. With this utility, you can effortlessly include code snippets from various programming languages directly into your markdown documentation.
 
 
@@ -19,8 +18,14 @@ How to Use:
 3. Run the script, and it will update the markdown file with the included source code snippets.
 4. Commit the changes, and your improved markdown documentation is ready to impress!
 
+## Example
+```bash
+python3 markdown_renderer.py markdown_needs_code.md souce_code_1.c source_code_2.py source_code_3.verilog
+```
+
 Note: Make sure to properly format your markdown file with the placeholder %%src_code_x%%, where 'x' represents the sequence of the source code files.
 
 Start enhancing your markdown-based projects with the Markdown Renderer and streamline the way you present source code examples. Happy coding and documenting!
 
 #opensource #markdown #documentation #coding #github
+
